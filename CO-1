@@ -1,0 +1,104 @@
+### Ex 1
+<!DOCTYPE html>
+<html><head><title>My First Page</title></head>
+<body>
+<h1>Hello Students!</h1>
+<p>Welcome to HTML.</p>
+</body></html>
+### Ex 2
+<!DOCTYPE html>
+<html><head><title>My College</title></head>
+<body>
+<h1>My College</h1><h2>About</h2><h3>Courses</h3>
+<h4>Faculty</h4><h5>Library</h5><h6>Contact</h6>
+<p>College is good.<br>We learn HTML.</p><hr>
+<p>Second paragraph.</p>
+</body></html>
+### Ex 3
+<!DOCTYPE html>
+<html><head><title>About Me</title></head>
+<body>
+<p><b>Surekha</b> <i>happy</i> <u>underlined</u> <strong>important</strong> <em>emphasized</em> <mark>highlight</mark> <small>small</small></p>
+<p>H<sub>2</sub>O, 10<sup>2</sup>=100</p>
+</body></html>
+### Ex 4
+<!DOCTYPE html>
+<html><head><title>Links</title></head>
+<body>
+<a href="https://www.google.com">Google</a><br>
+<a href="https://www.yourcollege.com">College</a><br>
+<a href="ex1.html">Ex1 Page</a><br>
+<img src="https://picsum.photos/200" alt="Random" width="200"><br>
+<img src="myphoto.jpg" alt="My Photo" width="200"><br>
+<a href="https://www.google.com"><img src="https://picsum.photos/200" alt="Click" width="200"></a>
+</body></html>
+### Ex 5
+<!DOCTYPE html>
+<html><head><title>Routine</title></head>
+<body>
+<ul><li>Reading</li><li>Music</li><li>Drawing</li><li>Cooking</li>
+<li>Walking<ul><li>Morning</li><li>Evening</li><li>Park</li></ul></li></ul>
+<ol><li>Wake up</li><li>Brush</li><li>Exercise</li><li>Bath</li><li>Breakfast</li></ol>
+<dl><dt>HTML</dt><dd>Structure</dd><dt>CSS</dt><dd>Style</dd><dt>JS</dt><dd>Behaviour</dd></dl>
+</body></html>
+### Ex 6
+<!DOCTYPE html>
+<html><head><title>Marks</title></head>
+<body>
+<table border="1"><caption>Student Marks</caption>
+<tr><th>Name</th><th>Subject</th><th>Marks</th></tr>
+<tr><td>Asha</td><td>HTML</td><td>90</td></tr>
+<tr><td>Ravi</td><td>HTML</td><td>85</td></tr>
+<tr><td>Priya</td><td rowspan="2">HTML<br>CSS</td><td>95</td></tr>
+<tr><td>Priya</td><td>88</td></tr>
+</table>
+</body></html>
+### Ex 7
+<!DOCTYPE html>
+<html><head><title>College</title></head>
+<body>
+<header><h1>My College Website</h1></header>
+<nav><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a></nav>
+<main><section><h2>Welcome Students</h2><p>Welcome.</p></section>
+<article><h3>Latest News</h3><p>Exams next week.</p></article></main>
+<footer><p>Copyright 2026</p></footer>
+</body></html>
+### Ex 8
+<!DOCTYPE html>
+<html><head><title>My Page</title></head>
+<body>
+<header><h1>Welcome</h1></header>
+<nav><a href="#">Home</a> <a href="#">About</a></nav>
+<main><h2>About Me</h2><p>I am a student</p></main>
+<p>Copyright 2026</p>
+</body></html>
+### Ex 9
+<!DOCTYPE html>
+<html><head><title>Registration</title></head>
+<body>
+<form>
+<label for="name">Name:</label><input type="text" id="name" placeholder="Enter your name"><br><br>
+<label for="email">Email:</label><input type="email" id="email" placeholder="Enter your email"><br><br>
+<label for="pass">Password:</label><input type="password" id="pass"><br><br>
+Gender: <input type="radio" name="gender">Male <input type="radio" name="gender">Female<br><br>
+Subjects: <input type="checkbox">HTML <input type="checkbox">CSS <input type="checkbox">JS<br><br>
+Branch: <select><option>CSE</option><option>ECE</option><option>EEE</option></select><br><br>
+Address:<br><textarea rows="3"></textarea><br><br>
+<input type="submit" value="Register"> <input type="reset">
+</form>
+</body></html>
+### Ex 10
+<!DOCTYPE html>
+<html><head><title>Final</title></head>
+<body>
+<header><h1>My Website</h1></header>
+<nav><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a></nav>
+<main>
+<section><h2>About Me</h2><p>I am Surekha.</p><img src="https://picsum.photos/200" width="150"><ul><li>Reading</li><li>Music</li><li>Drawing</li></ul></section>
+<section><h2>My Marks</h2><table border="1"><tr><th>Name</th><th>Marks</th></tr><tr><td>Asha</td><td>90</td></tr><tr><td>Ravi</td><td>85</td></tr><tr><td>Priya</td><td>95</td></tr></table></section>
+<article><h3>News</h3><p>Completed HTML lab.</p></article>
+</main>
+<form>Name: <input type="text"> Email: <input type="email"> <input type="submit" value="Submit"></form>
+<footer><p>Copyright 2026 - Surekha</p></footer>
+</body></html>
+
